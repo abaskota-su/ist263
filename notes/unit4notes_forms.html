@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is our 263 food delivery form</h1>
+    <form action="post">
+
+        <label for="fullname">First name:</label>
+        <input type="text" id="fullname" name="fullname">
+         <!-- name will show when form is submitted-->
+        <br>
+
+        <label for="special">Special instructions:</label>
+         <textarea id="special" name="special"></textarea>
+         <br>
+
+         <p>Pickup or Delivery?</p>
+         <input type="radio" id="delivery1" name="delivery" value="pickup">
+         <label for="delivery1">pickup</label>
+         <input type="radio" id="delivery2" name="delivery" value="delivery">
+         <label for="delivery2">delivery</label>
+         <br>
+
+        <input type="checkbox" id="utensils" name="utensils" value="no utensils">
+        <label for="utensils">no utensils?</label>
+        <br>
+        <!--unlike radio, checkboxes can be unselected -->
+
+        <label for="food">What food?</label>
+        <select>
+            <option value="sushi">sushi</option>
+            <option value="pizza">pizza</option>
+            <option value="sandwich">sandwich</option>
+            <option value="thai food">thai food</option>
+        </select>
+
+         <br><input type="submit" value="send order">
+
+       
+    </form>
+</body>
+</html>
