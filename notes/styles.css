@@ -1,0 +1,15 @@
+h1 {color:orange;}
+p {font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',serif;
+    Font-weight:bolder;
+    text-decoration: line-through;}
+p, h2{color:blue;}
+/* group slector */
+
+p a{color:black;}
+/* descendant selector, only changing color of a tags inside of p tag */
+#welcome{color:pink;
+        text-decoration: none;}
+/* id selector only styles one element */
+.double{font-size: 2em}
+/* class selector similar to id but multiple */
