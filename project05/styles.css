@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #222222;
+}
+
+header {
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.basketball {
+    width: 100px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #222222;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dylan {
+    display: flex;
+    margin: 25px 0;
+}
+
+.dylan img {
+    width: 220px;
+    margin-right: 25px;
+}
+
+.cooper {
+    display: flex;
+    margin: 25px 0;
+}
+
+.cooper img {
+    width: 220px;
+    margin-right: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    flex-basis: 48%;
+}
+
+.right {
+    flex-basis: 48%;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #999999;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
